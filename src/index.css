@@ -8,29 +8,47 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 240 5% 6%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 263 70% 50%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 240 4% 15.9%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 240 5% 6%;
+    --muted-foreground: 240 5% 64.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 240 4% 15.9%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
+
+    /* Data Science Theme Colors */
+    --ml-primary: 263 70% 50%;
+    --ml-secondary: 216 87% 52%;
+    --ml-accent: 290 84% 60%;
+    --ml-success: 142 71% 45%;
+    --ml-warning: 48 96% 53%;
+    --ml-danger: 0 84% 60%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(263 70% 50%), hsl(216 87% 52%));
+    --gradient-secondary: linear-gradient(135deg, hsl(240 4% 15.9%), hsl(240 5% 6%));
+    --gradient-hero: linear-gradient(135deg, hsl(263 70% 50%) 0%, hsl(216 87% 52%) 50%, hsl(290 84% 60%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(240 5% 6%), hsl(240 4% 15.9%));
+    
+    /* Shadows */
+    --shadow-ml: 0 10px 30px -10px hsl(263 70% 50% / 0.3);
+    --shadow-glow: 0 0 40px hsl(216 87% 52% / 0.2);
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
