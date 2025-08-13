@@ -23,7 +23,7 @@ const ChurnHero = ({ onGetStarted }: { onGetStarted: () => void }) => {
             and maximize retention with our comprehensive analytics platform.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+          <div className="flex justify-center mb-16">
             <Button 
               onClick={onGetStarted}
               size="lg" 
@@ -31,13 +31,6 @@ const ChurnHero = ({ onGetStarted }: { onGetStarted: () => void }) => {
             >
               Get Started
               <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="border-primary/30 hover:bg-primary/10 text-lg px-8 py-6"
-            >
-              View Demo
             </Button>
           </div>
           
