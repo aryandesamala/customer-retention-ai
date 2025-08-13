@@ -12,14 +12,7 @@ const ChurnHero = ({ onGetStarted }: { onGetStarted: () => void }) => {
       
       <div className="relative container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto">
-          <div className="flex justify-center mb-8">
-            <div className="flex items-center space-x-4 bg-card/10 backdrop-blur-sm border border-primary/20 rounded-full px-6 py-3">
-              <Brain className="w-6 h-6 text-ml-accent" />
-              <span className="text-sm font-medium">Powered by Advanced ML</span>
-            </div>
-          </div>
-          
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-foreground via-ml-accent to-ml-secondary bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-ml-primary via-ml-accent to-ml-success bg-clip-text text-transparent">
             Customer Churn
             <br />
             Prediction System
